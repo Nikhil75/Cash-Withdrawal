@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.cashWithDrawal-container {
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wallet-container {
+  min-height: 80vh;
+  width: 50%;
+  background-color: #150b3e;
+  border-radius: 8px;
+}
+.user-logo {
+  height: 80px;
+  width: 80px;
+  background-color: #c7d2fe;
+  border-radius: 50%;
+  color: #7c3aed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user {
+  color: #7c3aed;
+}
+.name {
+  color: #d4d2db;
+  font-size: 25px;
+  margin-left: 20px;
+}
+.users {
+  display: flex;
+  padding: 40px;
+}
+.balance-text {
+  color: #585076;
+}
+.rupessInNumbers {
+  color: white;
+  font-size: 40px;
+}
+.inRupees {
+  color: #585076;
+}
+.wallet-in-numbers {
+  display: flex;
+  justify-content: space-around;
+}
+.withdraw {
+  color: white;
+}
+.sum-in-rupees {
+  color: #585076;
+}
+.Withdraw-container {
+  margin-left: 40px;
+}
+.button-numbers-container {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
